@@ -17,6 +17,15 @@ import {
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
+// To-Do
+//
+// Important
+// Work on making it responsive - maybe done
+// Decide on background color and font
+//
+// Maybe
+// 
+
 export default function Header({ toggle }) {
   return (
     <HeaderContainer>

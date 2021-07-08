@@ -10,6 +10,14 @@ import {
   HeroPTag,
 } from "./Hero.styles";
 
+// To-Do
+//
+// Important
+// Work on making it responsive
+//
+// Maybe
+// Add a background image/ video
+
 export default function Hero() {
   return (
     <HeroWrapper>

@@ -16,6 +16,14 @@ import {
   MikeyImg,
 } from "./About.styles";
 
+// To-Do
+//
+// Important
+// Work on making it responsive
+//
+// Maybe
+// 
+
 export default function About() {
   return (
     <AboutWrapper>

@@ -78,7 +78,7 @@ export const HeroH1Letters = styled.p`
 `;
 
 export const HeroPTag = styled.p`
-  color: aliceblue;
+  color: slategray;
   width: 55%;
   font-size: 2vh;
 
