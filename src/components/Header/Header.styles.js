@@ -6,7 +6,7 @@ export const HeaderContainer = styled.div`
   justify-content: space-between;
   /* padding: 0 24px; */
 
-  background: deepskyblue;
+  /* background: deepskyblue; */
   border-bottom: 1px solid aliceblue;
 
   min-height: 6vh;
