@@ -1,12 +1,11 @@
-import styled, { keyframes } from "styled-components";
-import { Link } from "react-scroll";
+import styled from "styled-components";
 
 export const AboutWrapper = styled.div`
-  background: #c7d2eb;
+  background: whitesmoke;
 `;
 
 export const AboutContent = styled.div`
-background: white;
+  /* background: whitesmoke; */
 
   display: grid;
   grid-template-columns: auto auto;
@@ -17,10 +16,15 @@ background: white;
   min-height: 67vh;
   align-content: center;
 
-  border: 3px solid deepskyblue;
+ /*  border: 3px solid deepskyblue; */
   margin-top: 3vh;
   padding: 0 3vh;
   ${"" /* background: #fff; */}
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 `;
 
 export const AboutText = styled.div`
@@ -30,32 +34,21 @@ export const AboutText = styled.div`
 `;
 
 export const AboutText1 = styled.p`
-  ${"" /* background: deepskyblue; */}
-
-  ${"" /* padding: 0 400px; */}
-  ${"" /* padding-bottom: 8vh; */}
-  ${"" /* text-align: center; */}
   font-size: 22px;
   min-height: 24vh;
 
-  ${
-    "" /* @media screen and (min-width: 1500px) {
-    padding: 0 550px;
-  } */
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+    text-align: center;
   }
 `;
 export const AboutText2 = styled.p`
-  ${"" /* background: deepskyblue; */}
-
-  ${"" /* padding: 0 400px 43vh 400px; */}
-  ${"" /* text-align: center; */}
   font-size: 22px;
   min-height: 16vh;
 
-  ${
-    "" /* @media screen and (min-width: 1500px) {
-    padding: 0 550px;
-  } */
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+    text-align: center;
   }
 `;
 
@@ -63,10 +56,9 @@ export const AboutSkills = styled.p`
   font-size: 22px;
   min-height: 18vh;
 
-  ${
-    "" /* @media screen and (min-width: 1500px) {
-    padding: 0 550px;
-  } */
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+    text-align: center;
   }
 `;
 
@@ -83,6 +75,10 @@ export const Skill = styled.li`
   position: relative;
   margin-bottom: 10px;
   padding-left: 20px;
+
+  @media screen and (max-width: 768px) {
+    font-weight: bold;
+  }
 `;
 
 export const MikeyImg = styled.img`
@@ -90,4 +86,9 @@ export const MikeyImg = styled.img`
   width: 20em;
 
   align-self: center;
+
+  @media screen and (max-width: 768px) {
+    height: 15em;
+    width: 15em;
+  }
 `;

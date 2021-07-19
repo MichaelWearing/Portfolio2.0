@@ -40,7 +40,7 @@ export default function Hero() {
           <HeroH1Letters>n</HeroH1Letters>
           <HeroH1Letters>g</HeroH1Letters>
         </HeroH1Wrapper>
-        <HeroPTag>
+         <HeroPTag>
           I'm a full-stack developer based in Stockholm. I love problem solving.
           I am constantly trying to learn new skills and extend my toolkit.
         </HeroPTag>

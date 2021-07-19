@@ -18,13 +18,16 @@ export const HeroH1Container = styled.div`
   flex-direction: column;
   text-align: left;
 
-  width: 55%;
   ${"" /* padding: 0 50px; */}
 
   min-height: 94vh;
   padding-top: 27vh;
 
   cursor: default;
+
+  @media screen and (min-width: 768px) {
+    width: 55%;
+  }
 `;
 
 const FadeIn = keyframes`
@@ -58,6 +61,10 @@ export const HeroH1Wrapper = styled.div`
   font-size: 12vh;
 
   animation: ${FadeIn} 2s;
+
+  @media screen and (max-width: 768px) {
+    font-size: 6vh;
+  }
 `;
 
 const Bounce = keyframes`
@@ -79,8 +86,11 @@ export const HeroH1Letters = styled.p`
 
 export const HeroPTag = styled.p`
   color: slategray;
-  width: 55%;
   font-size: 2vh;
 
   animation: ${FadeIn} 3s ease;
+
+  @media screen and (min-width: 768px) {
+    width: 55%;
+  }
 `;

@@ -6,7 +6,7 @@ export const HeaderContainer = styled.div`
   justify-content: space-between;
   /* padding: 0 24px; */
 
-  /* background: deepskyblue; */
+  background: deepskyblue;
   border-bottom: 1px solid aliceblue;
 
   min-height: 6vh;
@@ -15,7 +15,7 @@ export const HeaderContainer = styled.div`
   top: 0;
 
   z-index: 5;
-  
+
   @media screen and (max-width: 768px) {
     display: flex;
     -webkit-box-pack: justify;
@@ -34,7 +34,6 @@ export const HeaderMyName = styled(Link)`
 
   font-weight: bold;
   font-size: 1.5em;
-  padding-left: 100px;
 
   cursor: pointer;
 
@@ -42,7 +41,8 @@ export const HeaderMyName = styled(Link)`
     color: white;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 768px) {
+    padding-left: 100px;
   }
 `;
 
@@ -114,7 +114,7 @@ export const MobileIcon = styled.div`
   display: none;
 
   @media screen and (max-width: 768px) {
-    color: #f7f7f6;
+    /* color: #f7f7f6; */
     display: block;
     position: absolute;
     top: 0;
