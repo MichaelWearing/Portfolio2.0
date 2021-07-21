@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const AboutWrapper = styled.div`
-  background: aliceblue;
+  /* background: aliceblue; */
   /* background: ghostwhite; */
+  background: white;
 
   min-height: 94vh;
 `;
@@ -36,9 +37,18 @@ export const AboutText = styled.div`
 
 export const AboutTitle = styled.h1`
   text-align: center;
-  padding: 18vh 0 2vh 0;
+  padding: 18vh 0 1vh 0;
   font-size: 4vh;
 `
+
+export const Underline = styled.div`
+  width: 9vh;
+  height: 4px;
+  margin-bottom: 4vh;
+  background: deepskyblue;
+  margin-left: auto;
+  margin-right: auto;
+`;
 
 export const AboutText1 = styled.p`
   font-size: 18px;

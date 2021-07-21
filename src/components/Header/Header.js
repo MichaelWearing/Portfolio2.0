@@ -42,6 +42,11 @@ export default function Header({ toggle }) {
           </HeaderLinks>
         </HeaderItem>
         <HeaderItem>
+          <HeaderLinks to="skills" smooth={true} offset={-50}>
+            Skills
+          </HeaderLinks>
+        </HeaderItem>
+        <HeaderItem>
           <HeaderLinks to="projects" smooth={true} offset={-50}>
             Projects
           </HeaderLinks>

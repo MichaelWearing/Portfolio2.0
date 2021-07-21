@@ -8,6 +8,7 @@ import {
   AboutWrapper,
   AboutContent,
   AboutTitle,
+  Underline,
   AboutText,
   AboutText1,
   AboutText2,
@@ -23,14 +24,13 @@ import {
 // Work on making it responsive
 //
 // Maybe
-// 
+//
 
 export default function About() {
   return (
     <AboutWrapper className="about">
-          <AboutTitle>
-            About me
-          </AboutTitle>
+      <AboutTitle>About me</AboutTitle>
+      <Underline class="underline" />
       <AboutContent>
         <AboutText>
           <AboutText1>

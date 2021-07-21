@@ -1,7 +1,7 @@
 import styled, { keyframes } from "styled-components";
 
 export const HeroWrapper = styled.div`
-  /* background: #c7d2eb; */
+  background: aliceblue;
 
   display: flex;
   flex-direction: column;
