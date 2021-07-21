@@ -29,7 +29,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 export default function Header({ toggle }) {
   return (
     <HeaderContainer>
-      <HeaderMyName to="info" smooth={true} offset={-100}>
+      <HeaderMyName to="hero" smooth={true} offset={-100}>
         Michael Wearing
       </HeaderMyName>
       <MobileIcon onClick={toggle}>

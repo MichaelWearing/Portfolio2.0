@@ -20,7 +20,7 @@ import {
 
 export default function Hero() {
   return (
-    <HeroWrapper>
+    <HeroWrapper className="hero">
       <HeroH1Container>
         <HeroGreeting>Hi, my name is</HeroGreeting>
         <HeroH1Wrapper>

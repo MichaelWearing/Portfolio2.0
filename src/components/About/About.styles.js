@@ -1,50 +1,57 @@
 import styled from "styled-components";
 
 export const AboutWrapper = styled.div`
-  background: whitesmoke;
+  background: aliceblue;
+  /* background: ghostwhite; */
+
+  min-height: 94vh;
 `;
 
 export const AboutContent = styled.div`
-  /* background: whitesmoke; */
-
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 1em;
   border-radius: 16px;
   margin: auto;
   max-width: 61em;
-  min-height: 67vh;
   align-content: center;
 
- /*  border: 3px solid deepskyblue; */
-  margin-top: 3vh;
-  padding: 0 3vh;
-  ${"" /* background: #fff; */}
+  
+  padding: 2vh 3vh;
 
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column-reverse;
+
+    padding: 2vh 3vh;
   }
 `;
 
 export const AboutText = styled.div`
   display: flex;
+  justify-content: space-evenly;
   flex-direction: column;
   padding-right: 5vh;
 `;
 
+export const AboutTitle = styled.h1`
+  text-align: center;
+  padding: 18vh 0 2vh 0;
+  font-size: 4vh;
+`
+
 export const AboutText1 = styled.p`
-  font-size: 22px;
-  min-height: 24vh;
+  font-size: 18px;
 
   @media screen and (max-width: 768px) {
     font-size: 16px;
     text-align: center;
+
+    padding-bottom: 3vh;
   }
 `;
 export const AboutText2 = styled.p`
-  font-size: 22px;
-  min-height: 16vh;
+  font-size: 18px;
 
   @media screen and (max-width: 768px) {
     font-size: 16px;
@@ -53,8 +60,7 @@ export const AboutText2 = styled.p`
 `;
 
 export const AboutSkills = styled.p`
-  font-size: 22px;
-  min-height: 18vh;
+  font-size: 18px;
 
   @media screen and (max-width: 768px) {
     font-size: 16px;

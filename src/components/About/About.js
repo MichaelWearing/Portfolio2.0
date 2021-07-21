@@ -7,6 +7,7 @@ import mikey from "../../images/MikeyCircle.png";
 import {
   AboutWrapper,
   AboutContent,
+  AboutTitle,
   AboutText,
   AboutText1,
   AboutText2,
@@ -26,7 +27,10 @@ import {
 
 export default function About() {
   return (
-    <AboutWrapper>
+    <AboutWrapper className="about">
+          <AboutTitle>
+            About me
+          </AboutTitle>
       <AboutContent>
         <AboutText>
           <AboutText1>
@@ -41,7 +45,7 @@ export default function About() {
             Growing up playing video games, problem solving has always been
             somthing that I am great at.
           </AboutText2>
-          <AboutSkills>
+          {/* <AboutSkills>
             Some technologies i've been working with recently:
             <SkillList>
               <Skill>▹ JavaScript (ES6+)</Skill>
@@ -51,7 +55,7 @@ export default function About() {
               <Skill>▹ Node.js</Skill>
               <Skill>▹ HTML & CSS</Skill>
             </SkillList>
-          </AboutSkills>
+          </AboutSkills> */}
         </AboutText>
         <MikeyImg src={mikey} />
       </AboutContent>
