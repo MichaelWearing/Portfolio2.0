@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const SkillsWrapper = styled.div`
   background: white;
+  /* background: lightblue; */
 
   min-height: 94vh;
 `;

@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const ProjectsWrapper = styled.div`
-  background: aliceblue;
+  /* background: aliceblue; */
+  background: lightblue;
 
   min-height: 94vh;
 `;
