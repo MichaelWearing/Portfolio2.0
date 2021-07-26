@@ -18,6 +18,14 @@ import {
   TechName,
 } from "./Skills.styles";
 
+// To-Do
+//
+// Important
+// Add Correct Logos for Tech
+//
+// Maybe
+//
+
 export default function Skills() {
   return (
     <SkillsWrapper className="skills">

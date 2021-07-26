@@ -9,6 +9,14 @@ import {
   SideBarLink,
 } from "./SideBar.styles";
 
+// To-Do
+//
+// Important
+// Add Github and Linkedin Logos
+//
+// Maybe
+//
+
 export default function SideBar({ isOpen, toggle }) {
   return (
     <SideBarContainer isOpen={isOpen} onClick={toggle}>
