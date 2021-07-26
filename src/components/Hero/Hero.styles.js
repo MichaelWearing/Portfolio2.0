@@ -1,8 +1,6 @@
 import styled, { keyframes } from "styled-components";
 
 export const HeroWrapper = styled.div`
-  /* background: lightblue; */
-  /* background: aliceblue; */
   background: white;
 
   display: flex;
@@ -12,7 +10,6 @@ export const HeroWrapper = styled.div`
   text-align: center;
 
   padding: 0 30px;
-  ${"" /* min-height: 94vh; */}
 `;
 
 export const HeroH1Container = styled.div`
@@ -20,15 +17,13 @@ export const HeroH1Container = styled.div`
   flex-direction: column;
   text-align: left;
 
-  ${"" /* padding: 0 50px; */}
-
   min-height: 94vh;
   padding-top: 27vh;
 
   cursor: default;
 
-  @media screen and (min-width: 768px) {
-    width: 55%;
+  @media screen and (min-width: 1140px) {
+    width: 75%;
   }
 `;
 
@@ -55,6 +50,10 @@ export const HeroGreeting = styled.p`
   font-size: 4vh;
 
   animation: ${FadeIn} 1s ease;
+
+  @media screen and (max-width: 768px) {
+    padding-bottom: 2vh;
+  }
 `;
 
 export const HeroH1Wrapper = styled.div`
@@ -64,6 +63,9 @@ export const HeroH1Wrapper = styled.div`
 
   animation: ${FadeIn} 2s;
 
+  @media screen and (max-width: 1140px) {
+    font-size: 9vh;
+  }
   @media screen and (max-width: 768px) {
     font-size: 6vh;
   }
@@ -92,7 +94,11 @@ export const HeroPTag = styled.p`
 
   animation: ${FadeIn} 3s ease;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1140px) {
     width: 55%;
+  }
+  @media screen and (max-width: 1140px) {
+    font-size: 2.6vh;
+    padding-top: 3vh;
   }
 `;

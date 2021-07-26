@@ -28,10 +28,13 @@ export const IconGridContainer = styled.div`
 
   font-size: 10vh;
 
-  padding-top: 14vh;
-
+  @media screen and (min-width: 768px) {
+    padding-top: 14vh;
+  }
   @media screen and (max-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
+
+    padding-bottom: 5vh;
   }
 `;
 

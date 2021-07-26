@@ -1,10 +1,7 @@
 import styled from "styled-components";
 
 export const AboutWrapper = styled.div`
-  /* background: aliceblue; */
-  /* background: ghostwhite; */
-  /* background: white; */
-  background: lightblue;
+  background: aliceblue;
 
   min-height: 94vh;
 `;
@@ -18,14 +15,11 @@ export const AboutContent = styled.div`
   max-width: 61em;
   align-content: center;
 
-  
-  padding: 2vh 3vh;
+  padding: 2vh 3vh 8vh 3vh;
 
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column-reverse;
-
-    padding: 2vh 3vh;
   }
 `;
 
@@ -33,14 +27,22 @@ export const AboutText = styled.div`
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
-  padding-right: 5vh;
+  
+
+  @media screen and (min-width: 768px) {
+    padding-right: 5vh;
+  }
 `;
 
 export const AboutTitle = styled.h1`
   text-align: center;
   padding: 18vh 0 1vh 0;
   font-size: 4vh;
-`
+
+  @media screen and (max-width: 768px) {
+    padding: 6vh 0 1vh 0;
+  }
+`;
 
 export const Underline = styled.div`
   width: 9vh;
@@ -105,7 +107,7 @@ export const MikeyImg = styled.img`
   align-self: center;
 
   @media screen and (max-width: 768px) {
-    height: 15em;
-    width: 15em;
+    height: 14em;
+    width: 14em;
   }
 `;

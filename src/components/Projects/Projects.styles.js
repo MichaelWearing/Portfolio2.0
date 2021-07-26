@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectsWrapper = styled.div`
-  /* background: aliceblue; */
-  background: lightblue;
+  background: aliceblue;
 
   min-height: 94vh;
 `;
@@ -37,6 +36,10 @@ export const LinkContainer = styled.div`
   justify-content: space-between;
 
   width: 20vh;
+
+  @media screen and (max-width: 768px) {
+    width: 27vh;
+  }
 `;
 
 export const Link = styled.a`
@@ -55,4 +58,19 @@ export const Link = styled.a`
   width: 9vh;
 
   cursor: pointer;
+
+  @media screen and (min-width: 768px) {
+    font-size: 19px;
+  }
+  @media screen and (max-width: 768px) {
+    width: 12vh;
+  }
+`;
+
+export const LinkIcon = styled.p`
+  background: violet;
+`;
+
+export const LinkText = styled.p`
+  background: orange;
 `;
