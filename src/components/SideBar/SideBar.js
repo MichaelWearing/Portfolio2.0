@@ -1,5 +1,8 @@
 import React from "react";
 
+// React-Icons
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+
 // Styles
 import {
   SideBarContainer,
@@ -7,6 +10,8 @@ import {
   CloseIcon,
   SideBarWrapper,
   SideBarLink,
+  IconWrapper,
+  IconLinks,
 } from "./SideBar.styles";
 
 // To-Do
@@ -36,6 +41,29 @@ export default function SideBar({ isOpen, toggle }) {
         <SideBarLink to="contact" smooth={true} offset={100} onClick={toggle}>
           Contact
         </SideBarLink>
+        <IconWrapper>
+          <IconLinks
+            href="https://www.linkedin.com/in/michael-wearing/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin />
+          </IconLinks>
+          <IconLinks
+            href="mailto:mikeywearing@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaEnvelope />
+          </IconLinks>
+          <IconLinks
+            href="https://github.com/MichaelWearing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub />
+          </IconLinks>
+        </IconWrapper>
       </SideBarWrapper>
     </SideBarContainer>
   );

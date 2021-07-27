@@ -19,17 +19,17 @@ export const SideBarContainer = styled.aside`
 `;
 
 export const CloseIcon = styled(FaTimes)`
-	color: black;
+  color: black;
 `;
 
 export const Icon = styled.div`
-	position: absolute;
-	top: 1.2rem;
-	right: 1.5rem;
-	background: transparent;
-	font-size: 2rem;
-	cursor: pointer;
-	outline: none;
+  position: absolute;
+  top: 1.2rem;
+  right: 1.5rem;
+  background: transparent;
+  font-size: 2rem;
+  cursor: pointer;
+  outline: none;
 `;
 
 export const SideBarWrapper = styled.div`
@@ -52,5 +52,32 @@ export const SideBarLink = styled(Link)`
   &:hover {
     color: white;
     transition: 0.2s ease-in-out;
+  }
+`;
+
+export const IconWrapper = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  justify-self: center;
+
+  width: 20vh;
+  padding-top: 10vh;
+
+  @media screen and (max-width: 768px) {
+    width: 36vh;
+  }
+`;
+
+export const IconLinks = styled.a`
+  font-size: 4vh;
+  color: black;
+
+  &:hover {
+    color: deepskyblue;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 6vh;
   }
 `;

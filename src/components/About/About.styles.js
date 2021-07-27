@@ -51,6 +51,10 @@ export const Underline = styled.div`
   background: deepskyblue;
   margin-left: auto;
   margin-right: auto;
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 1vh;
+  }
 `;
 
 export const AboutText1 = styled.p`
