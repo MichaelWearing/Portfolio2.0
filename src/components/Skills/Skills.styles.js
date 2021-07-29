@@ -53,3 +53,13 @@ export const TechName = styled.p`
   padding-top: 1vh;
   font-size: 2vh;
 `;
+
+export const NodeWrapper = styled.div`
+  color: rgb(144, 197, 63);
+`;
+
+export const TechLogoNext = styled.img`
+  height: 7vh;
+  width: 10vh;
+`;
+
