@@ -20,8 +20,6 @@ import {
   PortfolioImg,
   LinkContainer,
   Link,
-  LinkIcon,
-  LinkText
 } from "./Projects.styles";
 
 export default function Projects() {

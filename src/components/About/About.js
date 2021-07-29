@@ -12,9 +12,6 @@ import {
   AboutText,
   AboutText1,
   AboutText2,
-  AboutSkills,
-  SkillList,
-  Skill,
   MikeyImg,
 } from "./About.styles";
 

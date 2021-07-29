@@ -31,11 +31,13 @@ export const Underline = styled.div`
 `;
 
 export const ContactText = styled.p`
+  font-size: 18px;
   text-align: center;
   width: 100%;
   padding: 0 30% 5vh;
 
   @media screen and (max-width: 768px) {
+    font-size: 16px;
     padding: 0 5% 5vh;
   }
 `;
