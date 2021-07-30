@@ -1,5 +1,8 @@
 import React from "react";
 
+// Images
+import HeroBackgroundCustom from "../../images/HeroBackgroundCustom.jpg";
+
 // Styled-Components
 import {
   HeroWrapper,
@@ -8,12 +11,13 @@ import {
   HeroH1Wrapper,
   HeroH1Letters,
   HeroPTag,
+  StyledSideElement,
 } from "./Hero.styles";
 
 // To-Do
 //
 // Important
-// Work on making it responsive
+//
 //
 // Maybe
 // Add a background image/ video
@@ -21,6 +25,7 @@ import {
 export default function Hero() {
   return (
     <HeroWrapper className="hero">
+      {/* <Background src={HeroBackgroundCustom} /> */}
       <HeroH1Container>
         <HeroGreeting>Hi, my name is</HeroGreeting>
         <HeroH1Wrapper>
@@ -40,7 +45,7 @@ export default function Hero() {
           <HeroH1Letters>n</HeroH1Letters>
           <HeroH1Letters>g</HeroH1Letters>
         </HeroH1Wrapper>
-         <HeroPTag>
+        <HeroPTag>
           I'm a full-stack developer based in Stockholm. I love problem solving.
           I am constantly trying to learn new skills and extend my toolkit.
         </HeroPTag>

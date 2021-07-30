@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const AboutWrapper = styled.div`
-  background: aliceblue;
+   /* background: aliceblue; */
+   background: #f0f2f5;
 
   min-height: 94vh;
 `;

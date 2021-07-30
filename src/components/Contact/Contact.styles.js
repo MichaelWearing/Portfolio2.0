@@ -1,13 +1,25 @@
 import styled from "styled-components";
 
+// Decide if I should keep this background -- Maybe get a diff for both
+import HeroFigma1 from "../../images/HeroFigma1.svg";
+import ContactBackground from "../../images/ContactBackground.svg";
+
 export const ContactWrapper = styled.div`
+ /*  background-position: left;
+  background-image: url(${ContactBackground});
+  background-size: cover; */
+
   display: flex;
   flex-direction: column;
 
   min-height: 68vh;
 
+  @media screen and (max-width: 1140px) {
+    background-image: none;
+  }
   @media screen and (max-width: 768px) {
     min-height: 55vh;
+    background-image: none;
   }
 `;
 
@@ -47,7 +59,7 @@ export const IconWrapper = styled.div`
   justify-content: space-evenly;
   align-self: center;
 
-  width: 20vh;
+  width: 25vh;
 
   @media screen and (max-width: 768px) {
     width: 36vh;
@@ -55,7 +67,7 @@ export const IconWrapper = styled.div`
 `;
 
 export const Icon = styled.a`
-  font-size: 4vh;
+  font-size: 5vh;
   color: black;
 
   &:hover {

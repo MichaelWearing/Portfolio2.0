@@ -1,7 +1,28 @@
 import styled, { keyframes } from "styled-components";
 
+// Images
+import HeroBackground1 from "../../images/HeroBackground1.jpg";
+import HeroBackground2 from "../../images/HeroBackground2.jpg";
+import HeroBackgroundCustom from "../../images/HeroBackgroundCustom.jpg";
+
+import HeroFigma2 from "../../images/HeroFigma2.png";
+import HeroFigma3 from "../../images/HeroFigma3.svg";
+import HeroFigma4 from "../../images/HeroFigma4.svg";
+import HeroFigma5 from "../../images/HeroFigma5.svg";
+import HeroFigma7 from "../../images/HeroFigma7.svg";
+
+import HeroFigma1 from "../../images/HeroFigma1.svg";
+import HeroFigma6 from "../../images/HeroFigma6.svg";
+
+// Decide if I should keep this background -- Maybe get a diff for both
+
 export const HeroWrapper = styled.div`
-  background: white;
+  /*  background: white; */
+  /* background-size: contain; */
+  /* background-repeat: round; */
+  /* background-position: left;
+  background-image: url(${HeroFigma1});
+  background-size: cover; */
 
   display: flex;
   flex-direction: column;
@@ -19,6 +40,8 @@ export const HeroH1Container = styled.div`
 
   min-height: 94vh;
   padding-top: 27vh;
+
+  max-width: 1000px;
 
   cursor: default;
 
@@ -102,3 +125,4 @@ export const HeroPTag = styled.p`
     padding-top: 3vh;
   }
 `;
+
