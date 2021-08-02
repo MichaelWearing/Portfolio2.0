@@ -105,7 +105,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Mikeywearing@gmail.com
+              mikeywearing@gmail.com
             </SideBarEmailWrapperInnerA>
           </SideBarEmailWrapperInner>
         </SideBarEmailWrapper>
