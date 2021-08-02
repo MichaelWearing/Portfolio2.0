@@ -145,6 +145,13 @@ export const GetInTouchButton = styled.a`
   width: 110px;
 
   animation: ${FadeIn} 4s ease;
+
+  &:hover,
+    &:focus {
+      transform: translateY(-3px);
+      color: white;
+      background: deepskyblue;
+    }
 `;
 
 
