@@ -48,6 +48,9 @@ export const HeroH1Container = styled.div`
   @media screen and (min-width: 1140px) {
     width: 75%;
   }
+  @media screen and (max-width: 768px) {
+    padding-top: 23vh;
+  }
 `;
 
 const FadeIn = keyframes`
@@ -142,6 +145,10 @@ export const GetInTouchButton = styled.a`
   width: 110px;
 
   animation: ${FadeIn} 4s ease;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 30px;
+  }
 `;
 
 
