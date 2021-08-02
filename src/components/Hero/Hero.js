@@ -58,7 +58,11 @@ export default function Hero() {
           I am constantly trying to learn new skills and extend my toolkit.
         </HeroPTag>
 
-        <GetInTouchButton>
+        <GetInTouchButton
+          href="mailto:mikeywearing@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Hire Me
         </GetInTouchButton>
 
