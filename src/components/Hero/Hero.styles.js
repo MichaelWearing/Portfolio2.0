@@ -126,6 +126,29 @@ export const HeroPTag = styled.p`
   }
 `;
 
+/////
+
+export const GetInTouchButton = styled.a`
+  color: deepskyblue;
+  border: 1px solid deepskyblue;
+  border-radius: 4px;
+  padding: 1.25rem 1.75rem;
+  font-size: 14px;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  margin-top: 50px;
+  width: 110px;
+
+  animation: ${FadeIn} 4s ease;
+`;
+
+
+
+/////
+
+
 export const SideBarEmailWrapper = styled.div`
   width: 40px;
   position: fixed;
@@ -179,11 +202,13 @@ export const SideBarEmailWrapperInnerA = styled.a`
   letter-spacing: 0.1em;
   writing-mode: vertical-rl;
 
+  text-decoration: none;
+  text-decoration-skip-ink: none;
+  color: deepskyblue;
+
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   cursor: pointer;
 `;
-
-// TEST
 
 export const SideBarLinkWrapper = styled.div`
   width: 40px;

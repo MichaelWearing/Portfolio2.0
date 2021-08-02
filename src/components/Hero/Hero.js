@@ -14,6 +14,7 @@ import {
   HeroH1Wrapper,
   HeroH1Letters,
   HeroPTag,
+  GetInTouchButton,
   SideBarLinkWrapper,
   SideBarLinks,
   SideBarEmailWrapper,
@@ -57,6 +58,10 @@ export default function Hero() {
           I am constantly trying to learn new skills and extend my toolkit.
         </HeroPTag>
 
+        <GetInTouchButton>
+          Hire Me
+        </GetInTouchButton>
+
         <SideBarLinkWrapper>
           <SideBarLinks>
             <li>
@@ -91,7 +96,11 @@ export default function Hero() {
 
         <SideBarEmailWrapper>
           <SideBarEmailWrapperInner>
-            <SideBarEmailWrapperInnerA>
+            <SideBarEmailWrapperInnerA
+              href="mailto:mikeywearing@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Mikeywearing@gmail.com
             </SideBarEmailWrapperInnerA>
           </SideBarEmailWrapperInner>
