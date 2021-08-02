@@ -141,14 +141,10 @@ export const GetInTouchButton = styled.a`
   text-decoration: none;
   cursor: pointer;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-  margin-top: 50px;
+  margin-top: 30px;
   width: 110px;
 
   animation: ${FadeIn} 4s ease;
-
-  @media screen and (max-width: 768px) {
-    margin-top: 30px;
-  }
 `;
 
 
