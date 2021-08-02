@@ -168,6 +168,7 @@ export const SideBarEmailWrapperInner = styled.div`
     &:hover,
     &:focus {
       transform: translateY(-3px);
+      color: black;
     }
   }
 `;
@@ -235,7 +236,7 @@ export const SideBarLinks = styled.ul`
         &:hover,
         &:focus {
           transform: translateY(-3px);
-          color: white;
+          color: black;
         }
       }
     }
