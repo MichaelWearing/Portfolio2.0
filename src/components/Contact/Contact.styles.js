@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 // Decide if I should keep this background -- Maybe get a diff for both
-import HeroFigma1 from "../../images/HeroFigma1.svg";
+/* import HeroFigma1 from "../../images/HeroFigma1.svg"; */
 import ContactBackground from "../../images/ContactBackground.svg";
 
 export const ContactWrapper = styled.div`

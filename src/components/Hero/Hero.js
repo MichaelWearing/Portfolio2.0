@@ -1,8 +1,8 @@
 import React from "react";
 
-// Images
+/* // Images
 import HeroBackgroundCustom from "../../images/HeroBackgroundCustom.jpg";
-
+ */
 // React-Icons
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
