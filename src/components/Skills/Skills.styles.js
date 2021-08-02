@@ -28,6 +28,12 @@ export const IconGridContainer = styled.div`
 
   font-size: 10vh;
 
+  max-width: 1400px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 1140px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
   @media screen and (min-width: 768px) {
     padding-top: 14vh;
   }
@@ -62,4 +68,3 @@ export const TechLogoNext = styled.img`
   height: 7vh;
   width: 10vh;
 `;
-

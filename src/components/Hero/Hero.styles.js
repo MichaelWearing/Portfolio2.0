@@ -113,7 +113,7 @@ export const HeroH1Letters = styled.p`
 
 export const HeroPTag = styled.p`
   color: slategray;
-  font-size: 2vh;
+  font-size: 20px;
 
   animation: ${FadeIn} 3s ease;
 
@@ -126,3 +126,118 @@ export const HeroPTag = styled.p`
   }
 `;
 
+export const SideBarEmailWrapper = styled.div`
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: auto;
+  right: 40px;
+  z-index: 10;
+  color: deepskyblue;
+
+  @media screen and (max-width: 1140px) {
+    right: 5px;
+  }
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const SideBarEmailWrapperInner = styled.div`
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+
+  &:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0 auto;
+    background-color: deepskyblue;
+  }
+
+  a {
+    margin: 20px auto;
+    padding: 10px;
+    /* line-height: 10px; */
+    letter-spacing: 0.1em;
+    writing-mode: vertical-rl;
+    &:hover,
+    &:focus {
+      transform: translateY(-3px);
+    }
+  }
+`;
+
+export const SideBarEmailWrapperInnerA = styled.a`
+  margin: 20px auto;
+  padding: 10px;
+  letter-spacing: 0.1em;
+  writing-mode: vertical-rl;
+
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  cursor: pointer;
+`;
+
+// TEST
+
+export const SideBarLinkWrapper = styled.div`
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: 40px;
+  right: auto;
+  z-index: 10;
+  color: deepskyblue;
+
+  @media screen and (max-width: 1140px) {
+    left: 5px;
+  }
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const SideBarLinks = styled.ul`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0 auto;
+    background-color: deepskyblue;
+  }
+
+  li {
+    margin-bottom: 20px;
+
+    a {
+      padding: 10px;
+
+      svg {
+        width: 25px;
+        height: 25px;
+        color: deepskyblue;
+
+        transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+        cursor: pointer;
+
+        &:hover,
+        &:focus {
+          transform: translateY(-3px);
+          color: white;
+        }
+      }
+    }
+  }
+`;

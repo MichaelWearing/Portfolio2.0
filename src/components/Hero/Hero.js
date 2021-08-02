@@ -3,6 +3,9 @@ import React from "react";
 // Images
 import HeroBackgroundCustom from "../../images/HeroBackgroundCustom.jpg";
 
+// React-Icons
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+
 // Styled-Components
 import {
   HeroWrapper,
@@ -11,7 +14,11 @@ import {
   HeroH1Wrapper,
   HeroH1Letters,
   HeroPTag,
-  StyledSideElement,
+  SideBarLinkWrapper,
+  SideBarLinks,
+  SideBarEmailWrapper,
+  SideBarEmailWrapperInner,
+  SideBarEmailWrapperInnerA,
 } from "./Hero.styles";
 
 // To-Do
@@ -49,6 +56,46 @@ export default function Hero() {
           I'm a full-stack developer based in Stockholm. I love problem solving.
           I am constantly trying to learn new skills and extend my toolkit.
         </HeroPTag>
+
+        <SideBarLinkWrapper>
+          <SideBarLinks>
+            <li>
+              <a
+                href="https://github.com/MichaelWearing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/michael-wearing/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin />
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:mikeywearing@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaEnvelope />
+              </a>
+            </li>
+          </SideBarLinks>
+        </SideBarLinkWrapper>
+
+        <SideBarEmailWrapper>
+          <SideBarEmailWrapperInner>
+            <SideBarEmailWrapperInnerA>
+              Mikeywearing@gmail.com
+            </SideBarEmailWrapperInnerA>
+          </SideBarEmailWrapperInner>
+        </SideBarEmailWrapper>
       </HeroH1Container>
     </HeroWrapper>
   );
