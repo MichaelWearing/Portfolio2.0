@@ -44,7 +44,7 @@ export default function Projects() {
           <Link
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/MichaelWearing/Portfolio"
+            href="https://github.com/MichaelWearing/Portfolio2.0"
           >
             <FaGithub />
             Code
