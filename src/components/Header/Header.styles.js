@@ -4,7 +4,6 @@ import { Link } from "react-scroll";
 export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  /* padding: 0 24px; */
 
   background: deepskyblue;
   border-bottom: 1px solid aliceblue;
@@ -114,7 +113,6 @@ export const MobileIcon = styled.div`
   display: none;
 
   @media screen and (max-width: 768px) {
-    /* color: #f7f7f6; */
     display: block;
     position: absolute;
     top: 0;

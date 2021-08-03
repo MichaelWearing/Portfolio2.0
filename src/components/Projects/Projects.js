@@ -8,7 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { FaReact, FaGithub, FaPlay } from "react-icons/fa";
 
 // Images
-import portfolio from "../../images/Portfolio.png";
+import portfolio from "../../images/Portfolio.svg";
 import starwars from "../../images/StarWars.png";
 import shoppingCart from "../../images/ShoppingCart.png";
 
@@ -25,8 +25,8 @@ import {
 export default function Projects() {
   return (
     <ProjectsWrapper className="projects">
-          <ProjectsTitle>Projects</ProjectsTitle>
-          <Underline class="underline"/>
+      <ProjectsTitle>Projects</ProjectsTitle>
+      <Underline class="underline" />
       <VerticalTimeline>
         <VerticalTimelineElement
           icon={<FaReact />}

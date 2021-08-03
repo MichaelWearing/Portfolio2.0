@@ -15,14 +15,6 @@ import {
   MikeyImg,
 } from "./About.styles";
 
-// To-Do
-//
-// Important
-// Work on making it responsive
-//
-// Maybe
-//
-
 export default function About() {
   return (
     <AboutWrapper className="about">
@@ -42,17 +34,6 @@ export default function About() {
             Growing up playing video games, problem solving has always been
             somthing that I am great at.
           </AboutText2>
-          {/* <AboutSkills>
-            Some technologies i've been working with recently:
-            <SkillList>
-              <Skill>▹ JavaScript (ES6+)</Skill>
-              <Skill>▹ Java</Skill>
-              <Skill>▹ React</Skill>
-              <Skill>▹ Express</Skill>
-              <Skill>▹ Node.js</Skill>
-              <Skill>▹ HTML & CSS</Skill>
-            </SkillList>
-          </AboutSkills> */}
         </AboutText>
         <MikeyImg src={mikey} />
       </AboutContent>

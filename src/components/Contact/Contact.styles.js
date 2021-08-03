@@ -1,14 +1,6 @@
 import styled from "styled-components";
 
-// Decide if I should keep this background -- Maybe get a diff for both
-/* import HeroFigma1 from "../../images/HeroFigma1.svg"; */
-import ContactBackground from "../../images/ContactBackground.svg";
-
 export const ContactWrapper = styled.div`
- /*  background-position: left;
-  background-image: url(${ContactBackground});
-  background-size: cover; */
-
   display: flex;
   flex-direction: column;
 

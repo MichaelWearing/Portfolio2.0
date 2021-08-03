@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const ProjectsWrapper = styled.div`
-  /* background: aliceblue; */
   background: #f0f2f5;
 
   min-height: 94vh;
@@ -25,6 +24,7 @@ export const Underline = styled.div`
 export const PortfolioImg = styled.img`
   width: 370px;
   height: 215px;
+  border: 1px solid deepskyblue;
 
   @media screen and (max-width: 768px) {
     width: 80%;

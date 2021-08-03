@@ -17,15 +17,6 @@ import {
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-// To-Do
-//
-// Important
-// Work on making it responsive - maybe done
-// Decide on background color and font
-//
-// Maybe
-// 
-
 export default function Header({ toggle }) {
   return (
     <HeaderContainer>
@@ -51,12 +42,6 @@ export default function Header({ toggle }) {
             Projects
           </HeaderLinks>
         </HeaderItem>
-        {/* <NavItem>
-          <NavLinks>Experience</NavLinks>
-        </NavItem>
-        <NavItem>
-          <NavLinks>Skills</NavLinks>
-        </NavItem> */}
         <HeaderItem>
           <HeaderLinks to="contact" smooth={true} offset={-50}>
             Contact

@@ -1,8 +1,5 @@
 import React from "react";
 
-/* // Images
-import HeroBackgroundCustom from "../../images/HeroBackgroundCustom.jpg";
- */
 // React-Icons
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
@@ -22,18 +19,9 @@ import {
   SideBarEmailWrapperInnerA,
 } from "./Hero.styles";
 
-// To-Do
-//
-// Important
-//
-//
-// Maybe
-// Add a background image/ video
-
 export default function Hero() {
   return (
     <HeroWrapper className="hero">
-      {/* <Background src={HeroBackgroundCustom} /> */}
       <HeroH1Container>
         <HeroGreeting>Hi, my name is</HeroGreeting>
         <HeroH1Wrapper>

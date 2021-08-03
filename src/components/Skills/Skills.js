@@ -29,14 +29,6 @@ import {
   TechLogoNext,
 } from "./Skills.styles";
 
-// To-Do
-//
-// Important
-// Add Correct Logos for Tech
-//
-// Maybe
-//
-
 export default function Skills() {
   return (
     <SkillsWrapper className="skills">
@@ -74,7 +66,7 @@ export default function Skills() {
           <TechName>Node</TechName>
         </GridItem>
         <GridItem>
-            <TechLogoNext src={NextLogo} />
+          <TechLogoNext src={NextLogo} />
           <TechName>Next</TechName>
         </GridItem>
         <GridItem>

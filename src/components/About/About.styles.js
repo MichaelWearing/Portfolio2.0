@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const AboutWrapper = styled.div`
-   /* background: aliceblue; */
-   background: #f0f2f5;
+  background: #f0f2f5;
 
   min-height: 94vh;
 `;
@@ -28,7 +27,6 @@ export const AboutText = styled.div`
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
-  
 
   @media screen and (min-width: 768px) {
     padding-right: 5vh;
