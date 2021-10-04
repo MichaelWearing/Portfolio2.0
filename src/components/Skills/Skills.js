@@ -11,6 +11,7 @@ import ExpressLogo from "../../images/ExpressLogo.png";
 import HTMLLogo from "../../images/HTMLLogo.png";
 import CSSLogo from "../../images/CSSLogo.png";
 import NextLogo from "../../images/NextLogo.png";
+import CSharpLogo from "../../images/CSharpLogo.png";
 import MongoDBLogo from "../../images/MongoDBLogo.png";
 import PostGresLogo from "../../images/PostGresLogo.png";
 import JavaLogo from "../../images/JavaLogo.png";
@@ -66,16 +67,16 @@ export default function Skills() {
           <TechName>Node</TechName>
         </GridItem>
         <GridItem>
-          <TechLogoNext src={NextLogo} />
-          <TechName>Next</TechName>
-        </GridItem>
-        <GridItem>
           <TechLogo src={MongoDBLogo} />
           <TechName>MongoDB</TechName>
         </GridItem>
         <GridItem>
           <TechLogo src={PostGresLogo} />
           <TechName>PostgresQL</TechName>
+        </GridItem>
+        <GridItem>
+          <TechLogo src={CSharpLogo} />
+          <TechName>C#</TechName>
         </GridItem>
         <GridItem>
           <TechLogo src={JavaLogo} />
