@@ -10,7 +10,7 @@ import ReactLogo from "../../images/ReactLogo.png";
 import ExpressLogo from "../../images/ExpressLogo.png";
 import HTMLLogo from "../../images/HTMLLogo.png";
 import CSSLogo from "../../images/CSSLogo.png";
-import NextLogo from "../../images/NextLogo.png";
+/* import NextLogo from "../../images/NextLogo.png"; */
 import CSharpLogo from "../../images/CSharpLogo.png";
 import MongoDBLogo from "../../images/MongoDBLogo.png";
 import PostGresLogo from "../../images/PostGresLogo.png";
@@ -27,7 +27,7 @@ import {
   TechLogo,
   TechName,
   NodeWrapper,
-  TechLogoNext,
+  /* TechLogoNext, */
 } from "./Skills.styles";
 
 export default function Skills() {
