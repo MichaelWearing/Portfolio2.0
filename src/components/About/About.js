@@ -1,7 +1,8 @@
 import React from "react";
 
 // Images
-import mikey from "../../images/MikeyCircle.png";
+import mikey from "../../images/Mikey.png";
+
 
 // Styled-Components
 import {
