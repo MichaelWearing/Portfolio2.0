@@ -2,7 +2,7 @@
 
 This is the second version of my Profolio
 
-## Tech/ frameworks
+## Tech/ Frameworks
 
 - React
 - Styled Components
