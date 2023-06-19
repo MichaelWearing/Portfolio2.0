@@ -9,7 +9,7 @@ import { FaReact, FaGithub, FaPlay } from "react-icons/fa";
 
 // Images
 import portfolio from "../../images/Portfolio.svg";
-import starwars from "../../images/StarWars.png";
+import dailytaskplanner from "../../images/DailyTaskPlanner.png";
 import shoppingCart from "../../images/ShoppingCart.png";
 
 // Styled-Components
@@ -18,6 +18,7 @@ import {
   ProjectsTitle,
   Underline,
   PortfolioImg,
+  DailyTaskPlannerImg,
   LinkContainer,
   Link,
 } from "./Projects.styles";
@@ -54,24 +55,24 @@ export default function Projects() {
           icon={<FaReact />}
           iconStyle={{ background: "deepskyblue", color: "#fff" }}
         >
-          <h3>StarWars App Hackday Project</h3>
-          <h4>06-11-2020</h4>
+          <h3>Daily Task Planner</h3>
+          <h4>19-06-2023</h4>
           <br />
-          <PortfolioImg src={starwars} />
+          <DailyTaskPlannerImg src={dailytaskplanner} />
           <br />
           <h4>Description: </h4>
           <p>
-            This is a project I made towards the end of my time at salt. This
-            app was made in 1 day. It is an app that allows the user to choose a
-            planet, and then a character from that planet, and finally see
-            information about that character.
+            This is a daily task planner, which allows users to create tasks
+            they would like to do in the day. The user is also able to allocate
+            a certain amount of time to complete each task. I utilize Local
+            Storage to store the data between sessions.
           </p>
           <br />
           <LinkContainer>
             <Link
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/MichaelWearing/Salt-HackDay-StarWars"
+              href="https://github.com/MichaelWearing/daily-task-planner"
             >
               <FaGithub />
               Code
@@ -79,7 +80,7 @@ export default function Projects() {
             <Link
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/MichaelWearing/Salt-HackDay-StarWars"
+              href="https://daily-task-planner-mw.netlify.app/"
             >
               <FaPlay />
               Demo

@@ -32,6 +32,10 @@ export const PortfolioImg = styled.img`
   }
 `;
 
+export const DailyTaskPlannerImg = styled(PortfolioImg)`
+  width: auto;
+`;
+
 export const LinkContainer = styled.div`
   display: flex;
   justify-content: space-between;
