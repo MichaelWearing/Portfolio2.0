@@ -34,6 +34,11 @@ export const PortfolioImg = styled.img`
 
 export const DailyTaskPlannerImg = styled(PortfolioImg)`
   width: auto;
+
+  @media screen and (max-width: 768px) {
+    width: 80%;
+    height: 80%;
+  }
 `;
 
 export const LinkContainer = styled.div`
